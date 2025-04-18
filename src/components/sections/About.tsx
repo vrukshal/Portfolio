@@ -43,8 +43,7 @@ const About = () => {
             </p>
 
             <p className="text-primary/80 dark:text-slate-light">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source 
-              projects, and continuously expanding my knowledge in the ever-evolving tech landscape.
+              When I'm not coding, you can find me playing badminton or Valorant, or reading books or articles to continuously expanding my knowledge in the ever-evolving world.
             </p>
           </motion.div>
           

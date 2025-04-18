@@ -43,39 +43,40 @@ const ExperienceItem = ({ title, company, duration, description, index }: Experi
 const Experience = () => {
   const experiences = [
     {
-      title: "Software Engineer Co-Op",
+      title: "Software Engineer Co-op",
       company: "Fortune Panel Systems",
-      duration: "May 2023 - Present",
+      duration: "January 2022 - December 2022",
       description: [
-        "Developed and maintained microservices for a scalable IoT platform using Spring Boot and AWS.",
-        "Implemented event-driven architecture with Kafka for real-time data processing from IoT devices.",
-        "Optimized database queries and implemented caching strategies, improving API response time by 40%.",
-        "Participated in full SDLC from requirement gathering to deployment and maintenance."
+        "Developed a full-stack IoT-based data streaming system using WebSocket and Java, securely transmitting machine data from 1000+ construction machines to a PostgreSQL database on AWS.",
+        "Contributed to the full SDLC, designing scalable API services using Spring Boot, Maven, and MVC architecture.",
+        "Built a dynamic front-end dashboard using TypeScript and Angular, automating report generation and saving 20+ hours per month.",
+        "Containerized the system with Docker and deployed on AWS EC2, utilizing Amazon RDS and CloudWatch for system performance monitoring."
       ]
     },
     {
-      title: "Software Developer Intern",
+      title: "Software Engineer Intern",
       company: "Solution Analysts",
       duration: "May 2022 - August 2022",
       description: [
-        "Built RESTful APIs using Java Spring Boot for a healthcare management system.",
-        "Developed front-end components with React and integrated them with backend services.",
-        "Collaborated with the QA team to perform unit and integration testing.",
-        "Implemented CI/CD pipeline using Jenkins to automate build and deployment processes."
+        "Developed 40+ RESTful APIs using FastAPI and Python, supporting a WhatsApp marketing system for 1 million customers.",
+        "Integrated Meta Business APIs into an MVC application, improving WhatsApp message delivery speed by 40%.",
+        "Implemented event-driven architecture using AWS Lambda and EventBridge for faster message processing, reducing latency by 25ms.",
+        "Optimized SQL queries, redesigning the database schema to improve performance, cutting query time by 40%."
       ]
     },
     {
-      title: "Research Assistant",
+      title: "Technical Assistant",
       company: "Arizona State University",
-      duration: "January 2022 - May 2022",
+      duration: "Dec 2023 - Present",
       description: [
-        "Contributed to a research project focused on optimizing distributed database systems.",
-        "Implemented and evaluated different caching strategies for improving query performance.",
-        "Analyzed and visualized performance metrics using Python and data visualization libraries.",
-        "Co-authored a research paper on efficient data distribution in cloud environments."
+        "Provided deskside support for 200+ VIP staff across 20+ departments, in both in-person and virtual roles, including on-call support.",
+        "Managed IT service requests and incidents using ServiceNow, Workday, and Salesforce, ensuring end-to-end troubleshooting, compliance, and problem resolution.",
+        "Led a team of 4 student workers to handle computer imaging and deployment for new users on Windows and Mac, while optimizing asset management for 1,000+ devices to improve resource tracking.",
+        "Developed systemized training materials and documentation, streamlining onboarding and research processes to enhance efficiency."
       ]
     }
   ];
+  
 
   return (
     <section id="experience" className="py-20 px-4 bg-secondary/30 dark:bg-navy/30">
