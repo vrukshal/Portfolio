@@ -19,7 +19,7 @@ jobs:
         node-version: '16'  # Specify the version of Node.js you're using
 
     - name: Cache Node modules
-      uses: actions/cache@v2
+      uses: actions/cache@v3  # Updated to v3
       with:
         path: ~/.npm
         key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
