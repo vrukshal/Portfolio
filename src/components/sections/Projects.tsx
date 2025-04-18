@@ -73,7 +73,7 @@ const Projects = () => {
     {
       title: "Secure Messaging Platform",
       description: "A microservices-based chat system with robust security features using JWT authentication, Kafka for message streaming, and WebSocket for real-time communication.",
-      image: "public/MicroService.png",
+      image: "./MicroService.png",
       tags: ["Microservices", "Kafka", "WebSocket", "JWT", "React", "ShadCN"],
       github: "https://github.com/vrukshal/Microservices-Chat-Platform",
       live: "#"
@@ -81,7 +81,7 @@ const Projects = () => {
     {
       title: "JobSuccess.AI",
       description: "A modern job platform built with Firebase for backend services, React for frontend, and Gemini API integration for intelligent resume parsing and job matching.",
-      image: "public/JobSuccess.png",
+      image: "./JobSuccess.png",
       tags: ["Firebase", "React", "Gemini API", "AI", "Authentication"],
       github: "https://github.com/vrukshal/JobSuccess.AI",
       live: "#"
@@ -89,7 +89,7 @@ const Projects = () => {
     {
       title: "Itinerary Sharing Platform",
       description: "A collaborative travel itinerary planning and sharing platform built with Spring Boot microservices and React, deployed with Kubernetes for scalability.",
-      image: "public/Itinerary.jpeg",
+      image: "./Itinerary.jpeg",
       tags: ["Spring Boot", "React", "Kubernetes", "Docker", "PostgreSQL"],
       github: "#",
       live: "#"
