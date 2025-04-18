@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - main  # Trigger deployment on push to the main branch
 
 jobs:
   build:
@@ -16,20 +16,25 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14' # Use the appropriate Node.js version
+        node-version: '16'  # Specify the version of Node.js you're using
+
+    - name: Cache Node modules
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-modules-
 
     - name: Install dependencies
-      run: npm install
+      run: npm install  # Install dependencies
 
-    - name: Build Next.js app
-      run: npm run build
-
-    - name: Export static site
-      run: npm run export
+    - name: Build the project
+      run: npm run build  # Build the Vite app for production
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        branch: gh-pages
-        folder: out # This is the default folder where Next.js exports static files
-        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages  # The branch where the app will be deployed
+        folder: dist       # Vite outputs the production build in the 'dist' folder
+        token: ${{ secrets.GITHUB_TOKEN }}  # GitHub token to allow access to the repository
