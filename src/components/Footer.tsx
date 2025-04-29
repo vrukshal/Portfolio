@@ -10,13 +10,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-primary/80 dark:text-slate-light text-sm">
-              &copy; {currentYear} | Designed & Built with ❤️
+              &copy; {currentYear} | Designed & Built with Vrukshal
             </p>
           </div>
           
           <div className="flex space-x-6">
             <a 
-              href="https://github.com"
+              href="https://github.com/Vrukshal"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary/70 dark:text-slate hover:text-accent dark:hover:text-accent transition-colors"
@@ -24,7 +24,7 @@ const Footer = () => {
               <GitHubLogoIcon className="h-5 w-5" />
             </a>
             <a 
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/Vrukshal"
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary/70 dark:text-slate hover:text-accent dark:hover:text-accent transition-colors"
@@ -32,7 +32,7 @@ const Footer = () => {
               <LinkedInLogoIcon className="h-5 w-5" />
             </a>
             <a 
-              href="mailto:email@example.com"
+              href="mailto:VrukshalUSA@gmail.com"
               className="text-primary/70 dark:text-slate hover:text-accent dark:hover:text-accent transition-colors"
             >
               <EnvelopeClosedIcon className="h-5 w-5" />

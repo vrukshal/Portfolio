@@ -61,13 +61,13 @@ const About = () => {
                 <div className="mb-4">
                   <p className="font-medium text-primary dark:text-white">Arizona State University</p>
                   <p className="text-sm text-primary/70 dark:text-slate">Master's in Computer Science</p>
-                  <p className="text-xs text-primary/60 dark:text-slate/80 mt-1">2022 - Present</p>
+                  <p className="text-xs text-primary/60 dark:text-slate/80 mt-1">Aug 2023 - May 2025</p>
                 </div>
                 
                 <div>
                   <p className="font-medium text-primary dark:text-white">Previous University</p>
                   <p className="text-sm text-primary/70 dark:text-slate">Bachelor's in Computer Science</p>
-                  <p className="text-xs text-primary/60 dark:text-slate/80 mt-1">2018 - 2022</p>
+                  <p className="text-xs text-primary/60 dark:text-slate/80 mt-1">June 2019 - June 2023</p>
                 </div>
               </div>
               

@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { CheckCircledIcon } from "@radix-ui/react-icons";
 
@@ -27,11 +26,24 @@ const SkillCategory = ({ title, skills }: { title: string; skills: string[] }) =
 
 const Skills = () => {
   const skillsData = {
-    languages: ["Java", "Python", "TypeScript", "JavaScript", "SQL", "HTML/CSS", "C++"],
-    frameworks: ["Spring Boot", "React", "Node.js", "Express", "Next.js", "JUnit", "Jest"],
-    databases: ["PostgreSQL", "MongoDB", "MySQL", "Redis", "Firebase"],
-    devops: ["Docker", "Kubernetes", "AWS", "CI/CD", "Jenkins", "GitHub Actions"],
-    tools: ["Git", "Maven", "Gradle", "Kafka", "RabbitMQ", "Elasticsearch", "Nginx"]
+    languages: [
+      "Java", "Python", "TypeScript", "JavaScript", "SQL", "HTML/CSS", "C++", "C#", "CSS3"
+    ],
+    frameworks: [
+      "Spring Boot", "React", "Node.js", "Express", "Next.js", "Django", "Flask", "FastAPI", "Redux"
+    ],
+    databases: [
+      "PostgreSQL", "MongoDB", "MySQL", "Redis", "Firebase", "Oracle", "Neo4j", "DynamoDB"
+    ],
+    devops: [
+      "Docker", "Kubernetes", "AWS", "CI/CD", "Jenkins", "GitHub Actions", "Azure", "GCP", "Redis"
+    ],
+    tools: [
+      "Git", "Maven", "Gradle", "Kafka", "RabbitMQ", "Elasticsearch", "Nginx", "JUnit", "Selenium", "Version control", "Linux", "Unix", "Shell Scripting"
+    ],
+    bigData: [
+      "Kafka", "Hadoop", "Spark"
+    ]
   };
 
   return (
@@ -60,6 +72,7 @@ const Skills = () => {
           <SkillCategory title="Databases & Storage" skills={skillsData.databases} />
           <SkillCategory title="DevOps & Cloud" skills={skillsData.devops} />
           <SkillCategory title="Tools & Services" skills={skillsData.tools} />
+          <SkillCategory title="Big Data & Messaging" skills={skillsData.bigData} />
         </div>
         
         <motion.div 
