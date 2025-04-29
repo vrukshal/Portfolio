@@ -116,7 +116,7 @@ const Experience = () => {
           viewport={{ once: true }}
         >
           <a 
-            href="/resume.pdf" 
+            href="./resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
             id="resume"
