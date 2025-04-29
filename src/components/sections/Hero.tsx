@@ -76,8 +76,13 @@ const Hero = () => {
             >
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/20 shadow-xl">
                 {/* Replace with your image */}
+                <img 
+      src="./myphoto.png" 
+      alt="My Photo" 
+      className="w-full h-full object-cover"
+    />
                 <div className="w-full h-full bg-gradient-to-br from-primary to-accent/40 flex items-center justify-center text-white text-lg">
-                  Your Photo
+                
                 </div>
               </div>
               <div className="absolute inset-0 rounded-full border-2 border-accent/40 -m-3 animate-pulse"></div>
