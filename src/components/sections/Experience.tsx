@@ -43,14 +43,14 @@ const ExperienceItem = ({ title, company, duration, description, index }: Experi
 const Experience = () => {
   const experiences = [
     {
-      title: "Software Engineer Co-op",
-      company: "Fortune Panel Systems",
-      duration: "January 2022 - December 2022",
+      title: "Software Engineer Intern",
+      company: "Solution Analysts",
+      duration: "January 2023 - July 2023",
       description: [
-        "Developed a full-stack IoT-based data streaming system using WebSocket and Java, securely transmitting machine data from 1000+ construction machines to a PostgreSQL database on AWS.",
-        "Contributed to the full SDLC, designing scalable API services using Spring Boot, Maven, and MVC architecture.",
-        "Built a dynamic front-end dashboard using TypeScript and Angular, automating report generation and saving 20+ hours per month.",
-        "Containerized the system with Docker and deployed on AWS EC2, utilizing Amazon RDS and CloudWatch for system performance monitoring."
+        "Developed 40+ RESTful APIs using FastAPI and Python, supporting a WhatsApp marketing system for 1 million customers.",
+        "Integrated Meta Business APIs into an MVC application, improving WhatsApp message delivery speed by 40%.",
+        "Implemented event-driven architecture using AWS Lambda and EventBridge for faster message processing, reducing latency by 25ms.",
+        "Optimized SQL queries, redesigning the database schema to improve performance, cutting query time by 40%."
       ]
     },
     {
@@ -58,10 +58,10 @@ const Experience = () => {
       company: "Solution Analysts",
       duration: "May 2022 - August 2022",
       description: [
-        "Developed 40+ RESTful APIs using FastAPI and Python, supporting a WhatsApp marketing system for 1 million customers.",
-        "Integrated Meta Business APIs into an MVC application, improving WhatsApp message delivery speed by 40%.",
-        "Implemented event-driven architecture using AWS Lambda and EventBridge for faster message processing, reducing latency by 25ms.",
-        "Optimized SQL queries, redesigning the database schema to improve performance, cutting query time by 40%."
+     " Collaborated in a SCRUM environment to develop REST APIs using Time Series Analysis with Clustering to improve accuracy by 25% and reduce prediction time by 15 seconds.",
+ "Automated data retrieval for organizations through REST API, streamlining dashboard updates, resulting in a 40% reduction in data entry, saving 15 hours per week.",
+ "Administered the deployment environment for a project by utilizing Gitlab and Kubernetes, and established CI/CD pipelines, resulting ina Reduced deployment time by 35%",
+" Utilized tools such as Apache JMeter for load testing and Selenium to perform unit testing. Increased testing coverage by 27% and reduced bugs in production by 20%."
       ]
     },
     {
